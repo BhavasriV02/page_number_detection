@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['page-number']
+
+roboflow:
+  workspace: alkris
+  project: page-number-detection
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alkris/page-number-detection/dataset/5
